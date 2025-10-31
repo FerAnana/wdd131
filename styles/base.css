@@ -11,6 +11,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header,
+main,
+footer {
   max-width: 1000px;
   height: fit-content;
   margin: 0 auto;
@@ -32,6 +37,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   background-color: #474747;
+  color: white;
 }
 
 ul {
@@ -68,7 +74,7 @@ h1 {
 
 .card {
   display: grid;
-  grid-template-rows: 1/2;
+  grid-template-rows: 30px;
   border: 1px solid;
   border-radius: 3px;
   margin: 5px;
@@ -102,9 +108,8 @@ h1 {
 .card img {
   grid-row: 2/2;
   width: 150px;
-  margin: 0.25rem;
-  justify-self: center;
-  align-self: center;
+  margin: 0.5rem 0.5rem 0.25rem 0.25rem;
+  float: right;
 }
 
 .byu-img {
